@@ -7,11 +7,7 @@ trendingBtn.addEventListener("click", () => {
 });
 
 arrowBtn.addEventListener("click", () => {
-  if (window.history.length <= 2) {
-    location.hash = "#home";
-  } else {
-    location.hash = window.history.back();
-  }
+  history.back();
 });
 
 function navigator() {
