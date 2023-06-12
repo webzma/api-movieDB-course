@@ -18,8 +18,8 @@
 	--darkBlue: #8EA2EA;
 	--red: #F09D9D;
 
-	--font-family-titles: 'Dosis', sans-serif;
-	--font-family-text: 'Red Hat Display', sans-serif;
+	--font-family-titles: 'Inter', sans-serif;
+	--font-family-text: 'Inter', sans-serif;
 	--font-weight-title1: 800;
 	--font-weight-title2: 700;
 	--font-weight-text1: 400;
@@ -27,10 +27,9 @@
 }
 
 body {
-	background-color: #121112;
-	color: #fff;
+	background-color: #002B5B;
+	color: #F9F5EB;
 	font-family: var(--font-family-text);
-	font-weight: var(--font-weight-text1);
 	font-size: 16px;
 	margin: 4px 0 0 0;
 	padding: 0;
@@ -72,11 +71,11 @@ h3 {
 }
 
 input {
-	background-color: #d3d3d3;
+	background-color: #E4DCCF;
 	font-size: 18px;
 	padding-left: 16px;
 	color: #000;
-	border: 1px solid var(--purple-light-2);
+	border: 1px solid #E4DCCF;
 	border-right: none;
 	outline: none;
 }
@@ -86,7 +85,7 @@ input::placeholder {
 }
 
 button {
-	background-color: var(--purple-dark-1);
+	background-color: #EA5455;
 	border: none;
 	color: var(--purple-light-2);
 	font-weight: var(--font-weight-text2);
@@ -355,7 +354,7 @@ footer {
 	margin-top: 403px;
 	z-index: 1;
 	position: absolute;
-	background-color: #121112;
+	background-color: #002B5B;
 
 }
 
@@ -417,7 +416,7 @@ footer {
 }
 
 footer {
-	background-color: var(--purple-medium-3);
+	background-color: #EA5455;
 	color: var(--purple-light-2);
 	text-align: center;
 	height: 48px;
